@@ -3,7 +3,7 @@
 // @namespace   *
 // @description Adds a small input box under the chat to request items definition from the Swords & Potions 2 wiki
 // @include     http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2*
-// @version     1.03
+// @version     1.04
 // @grant       GM_xmlhttpRequest
 // @grant       GM_log
 // @grant       GM_addStyle
@@ -21,7 +21,7 @@ function waitForChat() {
 		GM_addStyle("div.chat_message_window {height:458px !important}")
 		
 	} else {
-		GM_log("wait for it!")
+		GM_log("wait")
 		setTimeout(waitForChat, 1000)
 	}
 }
