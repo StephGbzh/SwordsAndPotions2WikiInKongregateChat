@@ -16,4 +16,4 @@ Your browser must be able to run user scripts, so use for example:
 
 Then install the script itself by clicking on it just above or use this [link](https://github.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/blob/master/SwordsAndPotions2WikiInKongregateChat.user.js) or this [one](http://goo.gl/pl4iir).
 
-Finally, go the [game page](http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2), open the "Chat" tab and use it!
+Finally, go the [game page](http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2) (or reload it if it was already open), open the "Chat" tab and use it!
