@@ -8,9 +8,9 @@
 // @grant       GM_log
 // @grant       GM_addStyle
 // @author      Stef
+// @updateURL   https://raw.githubusercontent.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/master/SwordsAndPotions2WikiInKongregateChat.meta.js
+// @downloadURL https://raw.githubusercontent.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/master/SwordsAndPotions2WikiInKongregateChat.user.js
 // ==/UserScript==
-
-// @downloadURL https://gist.github.com/StephGbzh/3365981af00c092a2418/raw/d49c5216198e409930e3a6885c5a003a374bfe45/SP2WikiBotInKongChat.user.js
 
 function waitForChat() {
 	canary = document.querySelectorAll("div.chat_tabpane.users_in_room.clear")
