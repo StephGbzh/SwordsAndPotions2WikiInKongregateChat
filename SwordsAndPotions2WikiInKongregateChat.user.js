@@ -14,7 +14,7 @@
 
 function waitForChat() {
 	canary = document.querySelectorAll("div.chat_tabpane.users_in_room.clear")
-	if (canary.length > 0) {
+	if ( canary.length > 0) {
 		above = document.querySelector("div#chat_window")
 		GM_log("going in")
 		initInput()
