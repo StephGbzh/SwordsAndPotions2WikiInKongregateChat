@@ -8,6 +8,8 @@
 // @grant       GM_log
 // @grant       GM_addStyle
 // @author      Stef
+// @updateURL   https://raw.githubusercontent.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/master/SwordsAndPotions2WikiInKongregateChat.meta.js
+// @downloadURL https://openuserjs.org/install/StephGbzh/Swords_Potions_2_Wiki_Bot_for_Kongregate_chat.user.js
 // ==/UserScript==
 
 function waitForChat() {
@@ -19,7 +21,7 @@ function waitForChat() {
 		GM_addStyle("div.chat_message_window {height:458px !important}")
 		
 	} else {
-		GM_log("wait for it")
+		GM_log("wait")
 		setTimeout(waitForChat, 1000)
 	}
 }
