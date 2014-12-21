@@ -14,6 +14,7 @@ Your browser must be able to run user scripts, so use for example:
 - Firefox with extension [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/)
 - Chrome/Chromium with extension [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
-Then install the script itself by clicking on it just above or use this [link](https://github.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/blob/master/SwordsAndPotions2WikiInKongregateChat.user.js) or this [one](http://goo.gl/pl4iir).
+Then go the script page by clicking on it in the list above or use this [link](https://github.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/blob/master/SwordsAndPotions2WikiInKongregateChat.user.js) or this [one](http://goo.gl/pl4iir).
+Click on the "Raw" button to install the script.
 
 Finally, go the [game page](http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2) (or reload it if it was already open), open the "Chat" tab and use it!
