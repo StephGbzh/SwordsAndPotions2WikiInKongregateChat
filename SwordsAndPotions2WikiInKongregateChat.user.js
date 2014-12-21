@@ -8,20 +8,18 @@
 // @grant       GM_log
 // @grant       GM_addStyle
 // @author      Stef
-// @updateURL   https://raw.githubusercontent.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/master/SwordsAndPotions2WikiInKongregateChat.meta.js
-// @downloadURL https://raw.githubusercontent.com/StephGbzh/SwordsAndPotions2WikiInKongregateChat/master/SwordsAndPotions2WikiInKongregateChat.user.js
 // ==/UserScript==
 
 function waitForChat() {
 	canary = document.querySelectorAll("div.chat_tabpane.users_in_room.clear")
-	if ( canary.length > 0) {
+	if (canary.length > 0) {
 		above = document.querySelector("div#chat_window")
 		GM_log("going in")
 		initInput()
 		GM_addStyle("div.chat_message_window {height:458px !important}")
 		
 	} else {
-		GM_log("wait")
+		GM_log("wait for it")
 		setTimeout(waitForChat, 1000)
 	}
 }
