@@ -3,7 +3,7 @@
 // @namespace   *
 // @description Adds a small input box under the chat to request items definition from the Swords & Potions 2 wiki
 // @include     http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2*
-// @version     1.04
+// @version     1.05
 // @grant       GM_xmlhttpRequest
 // @grant       GM_log
 // @grant       GM_addStyle
@@ -148,8 +148,9 @@ function toTitleCase(str)
 //http://www.edgebee.com/wiki/index.php?title=Fire_dagger_Recipe
 // =if(trim(G9)="","",hyperlink(CONCATENATE("http://www.edgebee.com/wiki/index.php?title=",substitute(G9," ","_"),"_Recipe"),"W"))
 function searchWikiItem(item) {
-	cleanItemName = toTitleCase(item.trim().replace(/ +/g, " "))
-	cleanItemName = cleanItemName.replace(/ Of /g, " of ")  // damn wiki only accepts [Rr]ing_of_[Ww]izardry
+	cleanItemName = item.trim().replace(/ +/g, " ")
+	cleanItemName = cleanItemName.charAt(0).toUpperCase() + cleanItemName.substr(1).toLowerCase()
+	//cleanItemName = cleanItemName.replace(/ Of /g, " of ")  // damn wiki only accepts [Rr]ing_of_[Ww]izardry
 	url = "http://www.edgebee.com/wiki/index.php?title="+cleanItemName.replace(/ /, "_")+"_Recipe"
 	//GM_log(url)
 	GM_xmlhttpRequest({
