@@ -3,7 +3,7 @@
 // @namespace   *
 // @description Adds a small input box under the chat to request items definition from the Swords & Potions 2 wiki
 // @include     http://www.kongregate.com/games/EdgebeeStudios/swords-and-potions-2*
-// @version     1.03
+// @version     1.05
 // @grant       GM_xmlhttpRequest
 // @grant       GM_log
 // @grant       GM_addStyle
